@@ -1,0 +1,91 @@
+table {
+    text-align: center;
+}
+
+
+/*td {
+    border: 1px dashed grey;
+}*/
+
+.inputFields {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 350px;
+    background-color: Lightgrey;
+}
+
+.dropDownList {
+    width: 220px;
+    height: 25px;
+    background-color: Lightgrey;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+.textArea {
+    resize: none;
+    background-color: Lightgrey;
+    font-size: 12px;
+    margin:10px;
+}
+
+
+.radioB {
+    font-size:15px;
+    color: white;
+    margin-top: 10px;
+}
+
+.buttons{
+    width: 162px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 10px
+    margin-bottom:10px;
+    background-color: Lightgrey;
+}
+
+
+.backToLoginPage {
+  font-size:14px;
+  font-weight: 100;
+  color: white;
+  margin: 10px;
+}
+
+a:visited {
+    color: white;
+}
+
+
+span {          /*this is how error messages are shown*/
+  display:block;
+  background: #F9A5A5;
+  padding-bottom: 2px;
+  padding-top: 1px;
+  color: #667;
+  width: 350px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+label.radio {
+    color: white;
+}
+
+/*------------------------------------------------------------------------*/
+
+Html, body {
+		height:100%;
+        background-image:url('BkGrd.jpg');
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+.grandParentContaniner {display:table; height:100%; margin: 0 auto}
+.parentContainer {display:table-cell; vertical-align:middle;}
