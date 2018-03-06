@@ -1,0 +1,50 @@
+
+body {
+    height: 100%;
+    background-image:url('BkGrd.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
+a {
+  font-family: arial;
+  font-size:14px;
+  margin-bottom:25px;
+  margin-left: 20px;
+  margin-right: 32px;
+  font-weight: 100;
+  color: white;
+
+}
+
+
+span {          /*this is how error messages are shown*/
+  display:block;
+  background: #F9A5A5;
+  padding-bottom: 2px;
+  padding-top: 1px;
+  color: #667;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+
+p {
+    font-family: arial;
+    font-size:14px;
+    color: white;
+}
+
+
+Html, body {
+		height:100%;
+        background-image:url('BkGrd.jpg');
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}

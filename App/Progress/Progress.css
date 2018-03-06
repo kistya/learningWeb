@@ -1,52 +1,24 @@
+
 body {
     height: 100%;
-    background-image:url('BkGrd.jpg');
+    background-image:url("BkGrd.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
 
-input {
-    font-family: arial;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
-    width: 300px;
-    background-color: Lightgrey;
-}
-
-table {
-    font-family: arial;
-    margin: 10px;
-    text-align: right;
-
-}
-
-#okButton{
-    width: 150px;
-    font-size: 15px;
-    font-family: arial;
-}
 
 a {
   font-family: arial;
   font-size:14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom:25px;
+  margin-left: 20px;
+  margin-right: 32px;
   font-weight: 100;
-
-  border: 1px solid #fff;
-  color: #fff;
-
-
+  color: white;
 
 }
 
-.highCells {
-    height: 40px
-}
 
 span {          /*this is how error messages are shown*/
   display:block;
@@ -59,12 +31,17 @@ span {          /*this is how error messages are shown*/
   font-size: 12px;
 }
 
+progress{
+    width: 500px;
+}
+
 
 p {
     font-family: arial;
-    font-size:14px;
+    font-size:20px;
     color: white;
 }
+
 
 Html, body {
 		height:100%;
@@ -75,8 +52,6 @@ Html, body {
         font-family: arial;
         background-color: grey;
 }
-
-
 
 
 /* General button style (reset) */
@@ -165,9 +140,3 @@ Html, body {
 .btn-4a:hover:before {
 	left: 80%;
 }
-
-
-
-
-.grandParentContaniner {display:table; height:100%; margin: 0 auto}
-.parentContainer {display:table-cell; vertical-align:middle;}
