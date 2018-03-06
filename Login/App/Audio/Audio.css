@@ -1,0 +1,171 @@
+
+body {
+    height: 100%;
+    background-image:url('BkGrd.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+input {
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 300px;
+    background-color: Lightgrey;
+}
+
+table {
+    font-family: arial;
+    margin: 10px;
+    text-align: right;
+
+}
+
+#okButton{
+    width: 150px;
+    font-size: 15px;
+    font-family: arial;
+}
+
+a {
+  font-family: arial;
+  font-size:14px;
+  margin-bottom:25px;
+  margin-left: 20px;
+  margin-right: 32px;
+  font-weight: 100;
+  color: white;
+
+}
+
+.highCells {
+    height: 40px
+}
+
+span {          /*this is how error messages are shown*/
+  display:block;
+  background: #F9A5A5;
+  padding-bottom: 2px;
+  padding-top: 1px;
+  color: #667;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+
+p {
+    font-family: arial;
+    font-size:14px;
+    color: white;
+}
+
+Html, body {
+		height:100%;
+        background-image:url('BkGrd.jpg');
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+
+
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 12px 40px;
+	display: inline-block;
+	margin: 15px 75px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+/* Button 4 */
+.btn-4 {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn-4:active {
+	border-color: #17954c;
+	color: #17954c;
+}
+
+.btn-4:hover {
+	background: #24b662;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-4:active:before {
+	color: #17954c;
+}
+
+/* Button 4a */
+.btn-4a:before {
+	left: 130%;
+	top: 0;
+}
+
+.btn-4a:hover:before {
+	left: 80%;
+}
+
+
+
+
+
+.grandParentContaniner {display:table; height:100%; margin: 0 auto}
+.parentContainer {display:table-cell; vertical-align:middle;}

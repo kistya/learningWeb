@@ -27,11 +27,19 @@ private void printRemainingTime(long inpu){
 
    if (login!=null) {
        if (login.equals("a@a.com") && pass.equals("111")){
-           out.write("<br><br><center><p>Login ok. Welcome to the system</p></center>");
+
            attemptsCount=0;
            restrictedAccess = false;
            showForm = false;
            blockTime = 0;
+
+        %>
+        <script type = "text/javascript">
+                   window.open("App/MainApp.jsp","_self");
+
+        </script>
+        <%
+
        }
        else {
            if (pass == "") {
@@ -127,8 +135,7 @@ private void printRemainingTime(long inpu){
 
    <%
     }
-    if ( (restrictedAccess)&&(!showForm) ){
-        printRemainingTime(20-timeElapsedSinceBlock);
-    }
+    out.write("<center><div><span>Attempt #" + attemptsCount + "</span></div></center>");
+
    %>
 </body>
