@@ -1,62 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434343;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+}
+
+li {
+    float: left;
+    border: 1px solid #bbb;
+}
+
+li:last-child {
+    /*border-right: none;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*--------------------------menu above--------------------------------*/
+
 body {
     height: 100%;
     background-image:url('/App/BkGrd.jpg');
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
-}
-
-input {
-    font-family: arial;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
-    width: 300px;
-    background-color: Lightgrey;
-}
-
-table {
-    font-family: arial;
-    margin: 10px;
-    text-align: right;
-
-}
-
-#okButton{
-    width: 150px;
-    font-size: 15px;
-    font-family: arial;
-}
-
-a {
-  font-family: arial;
-  font-size:14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 15px;
-  font-weight: 100;
-
-  border: 1px solid #fff;
-  color: #fff;
-
-
-
-}
-
-.highCells {
-    height: 40px
-}
-
-span {          /*this is how error messages are shown*/
-  display:block;
-  background: #F9A5A5;
-  padding-bottom: 2px;
-  padding-top: 1px;
-  color: #667;
-  width: 300px;
-  margin-bottom: 10px;
-  font-size: 12px;
 }
 
 
@@ -165,9 +152,3 @@ Html, body {
 .btn-4a:hover:before {
 	left: 80%;
 }
-
-
-
-
-.grandParentContaniner {display:table; height:100%; margin: 0 auto}
-.parentContainer {display:table-cell; vertical-align:middle;}

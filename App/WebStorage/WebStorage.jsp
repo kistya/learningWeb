@@ -1,8 +1,6 @@
-
-
 <head>
-  <title>Progress bar</title>
-  <link href="Progress.css" rel="stylesheet" type="text/css"/>
+  <title>Web Storage API</title>
+  <link href="WebStorage.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
       <script type = "text/javascript">
@@ -10,10 +8,7 @@
               var x = document.getElementById("pr");
               x.value="100";
           }
-
       </script>
-
-
 </head>
 <body>
 <nav>
@@ -23,9 +18,9 @@
         <li><a href="/kk/App/Video/Video.jsp">Video player</a></li>
         <li><a href="/kk/App/Audio/Audio.jsp">Audio player</a></li>
         <li><a href="/kk/App/Magic/Magic.jsp">Some JavaScript magic</a></li>
-        <li><a href="/kk/App/WebStorage/WebStorage.jsp">Web storage API</a></li>
+        <li><a href="/kk/App/WebStorage/WebStorage.jsp" class = "active">Web storage API</a></li>
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
-        <li><a href="/kk/App/Progress/Progress.jsp" class = "active">Progress</a></li>
+        <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp">SVG</a></li>
     </ul>
 </nav>

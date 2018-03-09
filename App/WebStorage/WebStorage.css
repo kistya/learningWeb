@@ -35,18 +35,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-
 /*--------------------------menu above--------------------------------*/
 
-
-body {
-    height: 100%;
-    background-image:url("BkGrd.jpg");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+progress{
+    width: 100%;
 }
-
 
 
 p {

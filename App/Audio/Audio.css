@@ -1,3 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434343;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+}
+
+li {
+    float: left;
+    border: 1px solid #bbb;
+}
+
+li:last-child {
+    /*border-right: none;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*--------------------------menu above--------------------------------*/
+
+
 
 body {
     height: 100%;
@@ -7,29 +48,6 @@ body {
     background-position: center center;
 }
 
-
-a {
-  font-family: arial;
-  font-size:14px;
-  margin-bottom:25px;
-  margin-left: 20px;
-  margin-right: 32px;
-  font-weight: 100;
-  color: white;
-
-}
-
-
-span {          /*this is how error messages are shown*/
-  display:block;
-  background: #F9A5A5;
-  padding-bottom: 2px;
-  padding-top: 1px;
-  color: #667;
-  width: 300px;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
 
 
 p {
