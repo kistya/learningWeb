@@ -37,6 +37,7 @@
     </ul>
 </nav>
 
+<br><br><br>
 
 <div id="box" ondrop="drop(event)"
   ondragover="allowDrop(event)"

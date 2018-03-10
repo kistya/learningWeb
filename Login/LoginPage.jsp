@@ -35,7 +35,8 @@ private void printRemainingTime(long inpu){
 
         %>
         <script type = "text/javascript">
-                   window.open("App/MainApp.jsp","_self");
+                   window.open("../App/ImageSlider/ImageSlider.jsp","_self");
+                   //http://localhost:8080/kk/App/ImageSlider/ImageSlider.jsp
 
         </script>
         <%
