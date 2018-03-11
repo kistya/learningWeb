@@ -48,6 +48,16 @@ p {
     color: white;
 }
 
+div{
+    color:white;
+}
+
+input{
+    font-size: 15px;
+    background-color: lightgrey;
+    margin-left: 55px;
+}
+
 
 Html, body {
 		height:100%;

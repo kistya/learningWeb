@@ -8,7 +8,7 @@
       <script type = "text/javascript">
           function finishProgress() {
               var x = document.getElementById("pr");
-              x.value="100";
+              x.value +=5;
           }
 
       </script>

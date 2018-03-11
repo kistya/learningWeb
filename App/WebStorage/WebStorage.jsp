@@ -2,13 +2,6 @@
   <title>Web Storage API</title>
   <link href="WebStorage.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-      <script type = "text/javascript">
-          function finishProgress() {
-              var x = document.getElementById("pr");
-              x.value="100";
-          }
-      </script>
 </head>
 <body>
 <nav>
@@ -25,48 +18,47 @@
     </ul>
 </nav>
 
-<script>
-function clickCounter() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount)+1;
+<script type = "text/javascript">
+    function clickCounter() {
+        if(typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount) {
+                localStorage.clickcount = Number(localStorage.clickcount)+1;
+            } else {
+                localStorage.clickcount = 1;
+            }
+            document.getElementById("result").innerHTML = "<p>You have clicked the button " + localStorage.clickcount + " time(s).</p>";
         } else {
-            localStorage.clickcount = 1;
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
         }
-        document.getElementById("result").innerHTML = "<p>You have clicked the button " + localStorage.clickcount + " time(s).</p>";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
-}
 
-function saveSmthToStorage(paramName, value){
-    localStorage.setItem(paramName, value);
-}
+    function saveSmthToStorage(kkey, vvalue) {
+        localStorage.paramParam = vvalue;
+        document.getElementById("kkk").innerHTML = localStorage.paramParam;
+    }
 
-function getSavedParam (paramName){
-    <!--return localStorage.getItem(paramName);-->
-    document.getElementById("k_outp").innerHTML = localStorage.getItem(paramName);
-}
+    //function getSavedParam (paramName){
+    //    <!--return localStorage.getItem(paramName);-->
+    //    document.getElementById("k_outp").innerHTML = localStorage.getItem(paramName);
+    //}
 </script>
 
 <br><br><br>
-
 <p><button class="btn btn-4 btn-4a" onclick="clickCounter()">Click me!</button></p>
 <div id="result"></div>
 <p>Click the button to see the counter increase.</p>
-<p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
-
+<p>Close the browser tab (or window), and try again, and the counter will continue to count.</p>
 <br><br><br>
 
 
 <input type="text" id="k_input" placeholder="text to remember"></input>
+<div id="kkk"></div>
+<button onclick="saveSmthToStorage('keyy', 'vallluuueee')"  class="btn btn-4 btn-4a">Save</button>
 
-<button onclick="k_param, saveSmthToStorage(document.getElementById('i_input').innerHTML)">Save</button>
 
-
-<br><br>
+<!--<br><br>
 <p id="k_outp"><p>
-<button onclick="getSavedParam("k_outp")">Get saved param</button>
+<button onclick="getSavedParam("k_outp")">Get saved param</button>-->
 
 
 
