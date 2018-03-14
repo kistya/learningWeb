@@ -42,7 +42,7 @@ li a:hover:not(.active) {
 
 body {
     height: 100%;
-    background-image:url("BkGrd.jpg");
+    background-image:url("../BkGrd.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
