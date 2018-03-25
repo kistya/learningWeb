@@ -1,0 +1,90 @@
+Html, body {
+		height:100%;
+        background-image:url("../../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+/*--------------------------background above--------------------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434343;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+}
+
+li {
+    float: left;
+    border: 1px solid #bbb;
+}
+
+li:last-child {
+    /*border: none;
+    background-color: transparent;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    transition: 2s;
+}
+
+li a:active {
+    transition: 0.05s;
+    color: 4CAF50;
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+#logOut {
+    color: white;
+    font-size: 16px;
+    float:right;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+#logOut:hover {
+    color: #4CAF50;
+}
+
+#logOut:active {
+    font-size: 17px;
+}
+
+/*--------------------------navigation (menu, logout) above--------------------------------*/
+
+p, label {
+    font-family: arial;
+    font-size:18px;
+    color: white;
+}
+
+input{
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+/*--------------------------standard above--------------------------------*/
