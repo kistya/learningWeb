@@ -12,7 +12,6 @@
         <li><a href="/kk/App/Drag/Drag.jsp">Drag and drop</a></li>
         <li><a href="/kk/App/Video/Video.jsp">Video player</a></li>
         <li><a href="/kk/App/Audio/Audio.jsp">Audio player</a></li>
-        <!--<li><a href="/kk/App/Magic/Magic.jsp">Some JavaScript magic</a></li>-->
         <li><a href="/kk/App/WebStorage/WebStorage.jsp">Web storage API</a></li>
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>

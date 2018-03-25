@@ -1,3 +1,15 @@
+Html, body {
+		height:100%;
+        background-image:url("../../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+/*--------------------------background above--------------------------------*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,58 +39,52 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 2s;
 }
 
 li a:hover:not(.active) {
     background-color: #111;
+    transition: 2s;
 }
+
+li a:active {
+    transition: 0.05s;
+    color: 4CAF50;
+}
+
 
 .active {
     background-color: #4CAF50;
-}
-
-/*--------------------------menu above--------------------------------*/
-
-
-
-body {
-    height: 100%;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-a {
-
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
 }
 
 #logOut {
     color: white;
     font-size: 16px;
     float:right;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 14px 16px;
 }
 
 #logOut:hover {
-    color: yellow;
-
+    color: #4CAF50;
 }
+
+#logOut:active {
+    font-size: 17px;
+}
+
+/*--------------------------navigation (menu, logout) above--------------------------------*/
 
 p, label {
     font-family: arial;
-    font-size:14px;
+    font-size:18px;
     color: white;
 }
 
-
-Html, body {
-		height:100%;
-        background-image:url("../BkGrd.jpg");
-        background-size:     cover;
-        background-repeat:   no-repeat;
-        background-position: center center;
-        font-family: arial;
-        background-color: grey;
+input{
+    font-size: 15px;
+    background-color: lightgrey;
 }
+
+/*--------------------------standard above--------------------------------*/

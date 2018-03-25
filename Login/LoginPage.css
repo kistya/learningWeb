@@ -1,10 +1,17 @@
-body {
-    height: 100%;
-    background-image:url('BkGrd.jpg');
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+Html, body {
+		height:100%;
+        background-image:url("../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
 }
+
+.grandParentContaniner {display:table; height:100%; margin: 0 auto}
+.parentContainer {display:table-cell; vertical-align:middle;}
+
+/*--------------------------background above--------------------------------*/
 
 input {
     font-family: arial;
@@ -61,16 +68,3 @@ p {
     font-size:14px;
     color: white;
 }
-
-Html, body {
-		height:100%;
-        background-image:url('BkGrd.jpg');
-        background-size:     cover;
-        background-repeat:   no-repeat;
-        background-position: center center;
-        font-family: arial;
-        background-color: grey;
-}
-
-.grandParentContaniner {display:table; height:100%; margin: 0 auto}
-.parentContainer {display:table-cell; vertical-align:middle;}

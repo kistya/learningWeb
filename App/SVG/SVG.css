@@ -1,3 +1,15 @@
+Html, body {
+		height:100%;
+        background-image:url("../../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+/*--------------------------background above--------------------------------*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,7 +29,8 @@ li {
 }
 
 li:last-child {
-    /*border-right: none;*/
+    /*border: none;
+    background-color: transparent;*/
 }
 
 li a {
@@ -26,23 +39,55 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 2s;
 }
 
 li a:hover:not(.active) {
     background-color: #111;
+    transition: 2s;
 }
+
+li a:active {
+    transition: 0.05s;
+    color: 4CAF50;
+}
+
 
 .active {
     background-color: #4CAF50;
 }
-/*--------------------------menu above--------------------------------*/
 
+#logOut {
+    color: white;
+    font-size: 16px;
+    float:right;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 14px 16px;
+}
 
-p {
+#logOut:hover {
+    color: #4CAF50;
+}
+
+#logOut:active {
+    font-size: 17px;
+}
+
+/*--------------------------navigation (menu, logout) above--------------------------------*/
+
+p, label {
     font-family: arial;
-    font-size:20px;
+    font-size:18px;
     color: white;
 }
+
+input{
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+/*--------------------------standard above--------------------------------*/
 
 svg, canvas {
     border: 1px solid white;
@@ -52,15 +97,8 @@ path{
     color:white;
 }
 
-Html, body {
-		height:100%;
-        background-image:url('../BkGrd.jpg');
-        background-size:     cover;
-        /*background-repeat:   no-repeat;*/
-        background-position: center center;
-        font-family: arial;
-        background-color: grey;
-}
+
+
 
 /*--------------------------button below--------------------------------*/
 
@@ -106,8 +144,6 @@ Html, body {
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 }
-
-
 
 /* Button 4 */
 .btn-4 {
