@@ -34,7 +34,7 @@
 <div style="color:white;">Progress: </div> <progress id="pr" min="0" max="100" value = "35"></progress>
 
 <br> <br>
-<button onclick="finishProgress()" class="btn btn-4 btn-4a">Finish the process!</button>
+<button onclick="finishProgress()" class="btn btn-4 btn-4a">Make some progress!</button>
 
 
 

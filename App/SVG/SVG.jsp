@@ -20,7 +20,16 @@
 
 <script type = "text/javascript">
         function doSmth(){
+                document.getElementById("limeCirc").setAttribute("fill", "pink");
+                setInterval(timerFunction, 100);
 
+                //svgRect = document.getElementById("limeCirc");
+                //var fillColor = svgRect.getAttribute("fill");
+        }
+
+        timerFunction{
+            var myCirc = document.getElementById("limeCirc");
+            myCirc.setAttribute("r", myCirc.getAttribute("r")++);
         }
 </script>
 
@@ -30,16 +39,28 @@
     <rect width="10" height = "10" fill="orange">
         <animate attributeName="x" from="0" to="740" dur="6s" fill="freeze" repeatCount="1"/>
         <animate attributeName="y" from="0" to="300" dur="6s" fill="freeze" repeatCount="1"/>
+        <animate id="alt_animation" attributeName= "fill" from="green" to="red" dur="3s" repeatCount="indefinite"/>
+        <!--<animate attributeName= "fill" from="blue" to="orange" dur="3s" begin = "3s" repeatCount="indefinite"/>-->
+
     </rect>
 
     <rect width="10" height = "10" fill="red">
-        <animate attributeName="x" from="740" to="0" dur="3s" fill="freeze" repeatCount="2"/>
-        <animate attributeName="y" from="500" to="0" dur="3s" fill="freeze" repeatCount="2"/>
+        <!--<animate attributeName="x" from="740" to="0" dur="3s" fill="freeze" repeatCount="2"/>
+        <animate attributeName="y" from="500" to="0" dur="3s" fill="freeze" repeatCount="2"/>-->
+        <animate attributeName="height" from="5" to="40" dur="6s" fill="freeze" repeatCount="1"/>
+        <animateTransform attributeName="transform"
+
+                          type="rotate"
+                          from="0 50 50"
+                          to="360 50 50"
+                          dur="9s"
+                          repeatCount="1"/>
     </rect>
 
-    <circle r="10" fill="lime">
+    <circle r="10" fill="lime" id = "limeCirc">
         <animate attributeName="cx" from="250" to="100" dur="6s" fill="freeze" repeatCount="1"/>
         <animate attributeName="cy" from="0" to="490" dur="6s" fill="freeze" repeatCount="1"/>
+        <!--<animate attributeName="r" from="1" to="20" dur="6s" fill="freeze" repeatCount="1"/>-->
     </circle>
 
     <line x1="10" y1="10" x2="200" y2="100" style="stroke:#FFF; stroke-linecap:round; stoke-width:2">
@@ -62,7 +83,8 @@
     -->
 
 </svg>
-
+<br>
+<p><button class="btn btn-4 btn-4a" onclick="doSmth()">Click me!</button></p>
 <br>
 <p>Canvas:</p>
 <canvas id="canvas1" width="750" height="500" >
@@ -76,7 +98,7 @@
     ctx.fillRect(20,20,25,50);
 
     ctx.translate (300,300);
-    ctx.rotate ((Math.PI/180)*25);
+
     ctx.scale (1, 2.5);
     ctx.fillRect(20,20,25,50);
     //ctx.moveTo(40,50);
@@ -86,8 +108,9 @@
 
 
 
+
 <br><br><br>
-<p><button class="btn btn-4 btn-4a" onclick="doSmth()">Click me!</button></p>
+
 
 
 
