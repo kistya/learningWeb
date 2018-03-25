@@ -22,26 +22,32 @@
 
 <script type = "text/javascript">
         function doSmth(){
-                document.getElementById("limeCirc").setAttribute("fill", "pink");
-                setInterval(timerFunction, 100);
+                if (document.getElementById("limeCirc").getAttribute("fill") == "lime") {
+                    document.getElementById("limeCirc").setAttribute("fill", "pink");
+                }
+                else{
+                    document.getElementById("limeCirc").setAttribute("fill", "lime");
+                }
+
+                //setInterval(timerFunction, 100);
 
                 //svgRect = document.getElementById("limeCirc");
                 //var fillColor = svgRect.getAttribute("fill");
         }
 
-        timerFunction{
-            var myCirc = document.getElementById("limeCirc");
-            myCirc.setAttribute("r", myCirc.getAttribute("r")++);
-        }
+        // timerFunction{
+        //     var myCirc = document.getElementById("limeCirc");
+        //     myCirc.setAttribute("r", myCirc.getAttribute("r")++);
+        // }
 </script>
 
 <br><br><br>
 <p>SVG:</p>
 <svg width = "750" height = "500">
-    <rect width="10" height = "10" fill="orange">
+    <rect id="k_anim" width="10" height = "10">
         <animate attributeName="x" from="0" to="740" dur="6s" fill="freeze" repeatCount="1"/>
         <animate attributeName="y" from="0" to="300" dur="6s" fill="freeze" repeatCount="1"/>
-        <animate attributeName= "fill" from="green" to="red" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName= "fill" from="green" to="red" dur="3s"/ repeatCount=indefinite>
         <!--<animate attributeName= "fill" from="blue" to="orange" dur="3s" begin = "3s" repeatCount="indefinite"/>-->
 
     </rect>
@@ -86,8 +92,11 @@
 
 </svg>
 <br>
-<p><button class="btn btn-4 btn-4a" onclick="doSmth()">This button is useless for now</button></p>
+<p><button class="btn btn-4 btn-4a" onclick="doSmth()">This button changes smth on the scene above</button></p>
 <br>
+
+/*---------------------canvas below-------------------------------------------*/
+
 <p>Canvas:</p>
 <canvas id="canvas1" width="750" height="500" >
 </canvas>

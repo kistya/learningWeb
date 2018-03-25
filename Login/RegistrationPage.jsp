@@ -102,24 +102,12 @@ private boolean containsLetters(String inputt){
       noAgreementError += "Your agreement is needed to proceed;";
     }
 
-    // errorText += "</ul>";
-
     if (anyErrors){
       // out.write(errorText);
     }
     else {showForm = false;}
   }
 
-
-  /*
-show timeout on login page
-  check if it's email
-pass should match
-pass should contain letters, numbers
-не сбрасывать значения
-
-+ проверка со стороны клиента с html5 tags
-  */
 
   if (showForm){
 %>
@@ -171,7 +159,7 @@ pass should contain letters, numbers
             <tr><td colspan="2">
                 <label for="selectForm" class= "radioB">You are from:</label>
                 <select name="Area" id="selectForm" value = "<%=(area==null?"":area)%>" class="dropDownList">
-                    <option value="Other"<%=(  area!=null && area.equals("Other")  ?"selected":"") %> >Other</option>
+                    <option value="Other"<%=(  area!=null && area.equals("Other")  ?"selected":"") %> >Ukraine</option>
                     <option value="LNR"  <%=(  area!=null && area.equals("LNR")  ?"selected":"") %> >LNR</option>
                     <option value="DNR"  <%=(  area!=null && area.equals("DNR")  ?"selected":"") %> >DNR</option>
                 </select>
@@ -202,9 +190,6 @@ pass should contain letters, numbers
     </form>
     </div>
     </div>
-
-
-
 
 <%
 }

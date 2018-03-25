@@ -20,7 +20,6 @@
         <li><a href="/kk/App/Shop/Shop.jsp">Shop</a></li>
     </ul>
     <a href="/kk/Login/LoginPage.jsp" id="logOut">Log out</a>
-
 </nav>
 
 <br><br><br><br>
@@ -33,6 +32,22 @@
 
 <hr>
 <p>This angular code summs 2 and 2 and result is: {{2+2}}</p>
+
+<br><hr><br>
+    <div ng-app ng-init="celsius=0;diff=32">
+        <p>Celsius: <input type="text" ng-model="celsius"></p>
+        <p>Fahrenheit: {{celsius*1.8+diff}}</p>
+    </div>
+
+<br><hr><br>
+
+    <div style="color: white; padding: 10px;" ng-app ng-init="students=['david','steve','bob']">
+        <ol>
+            <li ng-repeat="name in students">
+                {{name}}
+            </li>
+        </ol>
+    </div>
 
 </body>
 </html>

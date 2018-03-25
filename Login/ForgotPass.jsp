@@ -17,30 +17,20 @@
        showForm = true;
    }
 
-
    if (showForm) {
 %>
-
-
 
         <div class="grandParentContaniner">
         <div class="parentContainer">
            <form action = "" method = "POST" >    <!-- POST don't show params in url -->
                  <table>
                     <tr><td> <input type = "email" name="Login" placeholder="Email" style = "inputFields"/> </td></tr>
-
                     <tr><td> <input type="submit" value="Submit" id="okButton"/> </td><td></td></tr>
-
-                    <tr>
-                        <td class="highCells"><a href="LoginPage.jsp">Go back to Login page</a></td>
-                    </tr>
-
+                    <tr><td class="highCells"><a href="LoginPage.jsp">Go back to Login page</a></td></tr>
                  </table>
             </form>
         </div>
         </div>
-
-
 
    <%
     } else {

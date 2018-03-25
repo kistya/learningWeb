@@ -2,7 +2,7 @@ Html, body {
 		height:100%;
         background-image:url("../../BkGrd.jpg");
         background-size:     cover;
-        background-repeat:   no-repeat;
+        background-repeat:   repeat;
         background-position: center center;
         font-family: arial;
         background-color: grey;
@@ -96,8 +96,6 @@ svg, canvas {
 path{
     color:white;
 }
-
-
 
 
 /*--------------------------button below--------------------------------*/

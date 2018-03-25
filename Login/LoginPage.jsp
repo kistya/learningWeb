@@ -9,7 +9,6 @@ private void printRemainingTime(long inpu){
     // out.write("<br><br><center><p>Too many attempts. Please wait sec</p></center>");
 }
 %>
-
 <head>
   <title>Login page</title>
   <link href="LoginPage.css" rel="stylesheet" type="text/css"/>
@@ -36,8 +35,6 @@ private void printRemainingTime(long inpu){
         %>
         <script type = "text/javascript">
                    window.open("../App/ImageSlider/ImageSlider.jsp","_self");
-                   //http://localhost:8080/kk/App/ImageSlider/ImageSlider.jsp
-
         </script>
         <%
 
@@ -49,13 +46,12 @@ private void printRemainingTime(long inpu){
            else{
                errorEmail = "Please try correct credentials";
            }
-           // out.write("<br><br><center><p>Inside the block X</p></center>");
            attemptsCount++;
            showForm = true;
        }
 
 
-       if (attemptsCount >=100) {
+       if (attemptsCount >=3) {
             restrictedAccess = true;
             showForm = false;
 
@@ -66,10 +62,8 @@ private void printRemainingTime(long inpu){
             else {
                 Date timeNow = new Date();
                 timeElapsedSinceBlock = (timeNow.getTime()-blockTime)/1000;
-                // out.write("<br><br><center><p>About to lock evrth for 20 sec</p></center>");
                 if (timeElapsedSinceBlock <= 20){
                     restrictedAccess = true;
-                    // out.write("<br><br><center><p>Too many attempts. Please wait</p></center>");
                 }
                 else{
                     attemptsCount=0;
@@ -84,20 +78,14 @@ private void printRemainingTime(long inpu){
             else {
                 showForm = true;
             }
-
        }
-
-
    }
    else {
        showForm = true;
    }
 
-
    if (showForm) {
 %>
-
-
 
         <div class="grandParentContaniner">
         <div class="parentContainer">
@@ -132,11 +120,8 @@ private void printRemainingTime(long inpu){
         </div>
         </div>
 
-
-
    <%
     }
     out.write("<center><div><span>Attempt #" + attemptsCount + "</span></div></center>");
-
    %>
 </body>
