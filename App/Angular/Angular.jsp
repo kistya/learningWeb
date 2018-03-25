@@ -18,10 +18,14 @@
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp">SVG</a></li>
         <li><a href="/kk/App/Angular/Angular.jsp" class = "active">Angular</a></li>
+        <li><a href="/kk/App/Shop/Shop.jsp">Shop</a></li>
     </ul>
+    <a href="/kk/Login/LoginPage.jsp" id="logOut">Log out</a>
+
 </nav>
 
 <br><br><br><br>
+
 
 <label>Name: </label>
 <input type="text" ng-model="name" placeholder="Enter a name">

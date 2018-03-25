@@ -107,13 +107,13 @@ private void printRemainingTime(long inpu){
                         <td colspan="2"> <center><p><%out.write(errorText);%></p></center> </td>
                     </tr>
                     <tr><td colspan="2">
-                            <input type = "email" name="Login" placeholder="Email" style = "inputFields"/>
+                            <input type = "email" name="Login" placeholder="Email (try a@a.com)" style = "inputFields"/>
                             <%if (!errorEmail.equals("")){
                                 out.write("<center><div><span>" + errorEmail + "</span></div></center>");
                             }%>
                     </td></tr>
                     <tr><td colspan="2">
-                        <input type = "password" name="Pass" placeholder="Pass" style = "inputFields"/>
+                        <input type = "password" name="Pass" placeholder="Pass (try 111)" style = "inputFields"/>
                         <%if (!errorPass.equals("")){
                             out.write("<center><div><span>" + errorPass + "</span></div></center>");
                         }%>

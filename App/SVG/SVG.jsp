@@ -16,7 +16,9 @@
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp" class = "active">SVG</a></li>
         <li><a href="/kk/App/Angular/Angular.jsp">Angular</a></li>
+        <li><a href="/kk/App/Shop/Shop.jsp">Shop</a></li>
     </ul>
+    <a href="/kk/Login/LoginPage.jsp" id="logOut">Log out</a>
 </nav>
 
 <script type = "text/javascript">
@@ -85,7 +87,7 @@
 
 </svg>
 <br>
-<p><button class="btn btn-4 btn-4a" onclick="doSmth()">Click me!</button></p>
+<p><button class="btn btn-4 btn-4a" onclick="doSmth()">This button is useless for now</button></p>
 <br>
 <p>Canvas:</p>
 <canvas id="canvas1" width="750" height="500" >

@@ -43,6 +43,10 @@
 
 
    <%
-     }
+    } else {
+        %>
+        <br><br>
+        <center><a href="LoginPage.jsp">Go back to Login page</a><center>
+    <% }
    %>
 </body>
