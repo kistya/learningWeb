@@ -34,14 +34,16 @@
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp">SVG</a></li>
+        <li><a href="/kk/App/Angular/Angular.jsp">Angular</a></li>
     </ul>
 </nav>
 
 <br><br><br>
 
+<p>On this page you can move picture to the box by drag and drop:</p>
 <div id="box" ondrop="drop(event)"
   ondragover="allowDrop(event)"
-  style="border:1px solid black;
+  style="border:1px solid white;
   width:200px; height:200px"></div>
 
   <br><br><br><br><br>

@@ -15,6 +15,7 @@
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp">SVG</a></li>
+        <li><a href="/kk/App/Angular/Angular.jsp">Angular</a></li>
     </ul>
 </nav>
 
@@ -49,8 +50,10 @@
 <p>Click the button to see the counter increase.</p>
 <p>Close the browser tab (or window), and try again, and the counter will continue to count.</p>
 <br><br><br>
+<hr>
+<br><br><br>
 
-
+<p>This part still doesn't work correctly:</p>
 <input type="text" id="k_input" placeholder="text to remember"></input>
 <div id="kkk"></div>
 <button onclick="saveSmthToStorage('keyy', 'vallluuueee')"  class="btn btn-4 btn-4a">Save</button>

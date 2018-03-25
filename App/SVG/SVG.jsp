@@ -15,6 +15,7 @@
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
         <li><a href="/kk/App/Progress/Progress.jsp">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp" class = "active">SVG</a></li>
+        <li><a href="/kk/App/Angular/Angular.jsp">Angular</a></li>
     </ul>
 </nav>
 
@@ -39,7 +40,7 @@
     <rect width="10" height = "10" fill="orange">
         <animate attributeName="x" from="0" to="740" dur="6s" fill="freeze" repeatCount="1"/>
         <animate attributeName="y" from="0" to="300" dur="6s" fill="freeze" repeatCount="1"/>
-        <animate id="alt_animation" attributeName= "fill" from="green" to="red" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName= "fill" from="green" to="red" dur="3s" repeatCount="indefinite"/>
         <!--<animate attributeName= "fill" from="blue" to="orange" dur="3s" begin = "3s" repeatCount="indefinite"/>-->
 
     </rect>

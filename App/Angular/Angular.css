@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434343;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+}
+
+li {
+    float: left;
+    border: 1px solid #bbb;
+}
+
+li:last-child {
+    /*border-right: none;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*--------------------------menu above--------------------------------*/
+
+
+
+body {
+    height: 100%;
+
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
+p, label {
+    font-family: arial;
+    font-size:14px;
+    color: white;
+}
+
+
+Html, body {
+		height:100%;
+        background-image:url("../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}

@@ -27,6 +27,7 @@
         <li><a href="/kk/App/Geolocation/Geolocation.jsp">Geolocation</a></li>
         <li><a href="/kk/App/Progress/Progress.jsp" class = "active">Progress</a></li>
         <li><a href="/kk/App/SVG/SVG.jsp">SVG</a></li>
+        <li><a href="/kk/App/Angular/Angular.jsp">Angular</a></li>
     </ul>
 </nav>
 
