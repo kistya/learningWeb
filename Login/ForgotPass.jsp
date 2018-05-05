@@ -1,5 +1,5 @@
 <head>
-   <title>Forgot pass page</title>
+   <title>I forgot the pass page</title>
    <link href="ForgotPass.css" rel="stylesheet" type="text/css">
 </head>
 <body>
