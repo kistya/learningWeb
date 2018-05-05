@@ -1,0 +1,70 @@
+Html, body {
+		height:100%;
+        background-image:url("../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+.grandParentContaniner {display:table; height:100%; margin: 0 auto}
+.parentContainer {display:table-cell; vertical-align:middle;}
+
+/*--------------------------background above--------------------------------*/
+
+input {
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 300px;
+    background-color: Lightgrey;
+}
+
+table {
+    font-family: arial;
+    margin: 10px;
+    text-align: right;
+
+}
+
+#okButton{
+    width: 150px;
+    font-size: 15px;
+    font-family: arial;
+}
+
+a {
+  font-family: arial;
+  font-size:14px;
+  margin-bottom:25px;
+  margin-left: 20px;
+  margin-right: 32px;
+  font-weight: 100;
+  color: white;
+
+}
+
+.highCells {
+    height: 40px
+}
+
+span {          /*this is how error messages are shown*/
+  display:block;
+  background: #F9A5A5;
+  padding-bottom: 2px;
+  padding-top: 1px;
+  color: #667;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+
+p {
+    font-family: arial;
+    font-size:14px;
+    color: white;
+}

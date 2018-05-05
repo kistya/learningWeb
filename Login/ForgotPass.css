@@ -1,0 +1,55 @@
+Html, body {
+		height:100%;
+        background-image:url("../BkGrd.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        font-family: arial;
+        background-color: grey;
+}
+
+.grandParentContaniner {display:table; height:100%; margin: 0 auto}
+.parentContainer {display:table-cell; vertical-align:middle;}
+
+/*--------------------------background above--------------------------------*/
+
+
+input {
+    font-family: arial;
+    margin: 10px;
+    font-size: 15px;
+    width: 300px;
+    background-color: Lightgrey;
+}
+
+table {
+    font-family: arial;
+    margin: 10px;
+    text-align: right;
+
+}
+
+#okButton{
+    width: 300px;
+    font-size: 15px;
+    font-family: arial;
+    margin-bottom: 25px;
+}
+
+
+a {
+  font-family: arial;
+  font-size:14px;
+  margin-right: 10px;
+
+  font-weight: 100;
+  color: white;
+
+}
+
+
+p {
+    font-family: arial;
+    font-size:14px;
+    color: white;
+}
